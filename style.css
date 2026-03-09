@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+/* NAVBAR */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#020617;
+}
+
+.logo img{
+    height: 50px;px;
+}
+
+.logo img{
+    height:50px;
+    background:white;
+    padding:2px;
+    border-radius:50%;
+}
+/* NAV LINKS */
+
+.nav-links a{
+    margin-left:25px;
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+
+.nav-links a:hover{
+    color:#38bdf8;
+}
+
+/* HERO SECTION */
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    max-width:600px;
+    margin:auto;
+    margin-bottom:40px;
+}
+
+/* BUTTONS */
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.btn{
+    padding:15px 25px;
+    font-size:16px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.worker{
+    background:#22c55e;
+    color:white;
+}
+
+.employer{
+    background:#3b82f6;
+    color:white;
+}
+
+.btn:hover{
+    opacity:0.9;
+}
+
+/* ABOUT */
+
+.about{
+    padding:80px 20px;
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+.about h2{
+    margin-bottom:20px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#020617;
+    padding:25px;
+    text-align:center;
+}
+
+footer a{
+    color:#38bdf8;
+    text-decoration:none;
+    margin:0 10px;
+}
